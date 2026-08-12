@@ -188,7 +188,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                   child: const Icon(Icons.call_split_rounded, color: SplitsColors.onGold, size: 24),
                 ),
                 const SizedBox(height: 10),
-                Text('Splits',
+                Text('spLit',
                     style: TextStyle(
                         fontWeight: FontWeight.w800, fontSize: 18, color: p.textPrimary)),
                 Text('v1.0.0', style: TextStyle(color: p.textTertiary, fontSize: 12)),

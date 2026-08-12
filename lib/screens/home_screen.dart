@@ -45,7 +45,7 @@ class HomeScreen extends ConsumerWidget {
                   ),
                   const SizedBox(width: 12),
                   Text(
-                    'Splits',
+                    'spLit',
                     style: TextStyle(
                       fontWeight: FontWeight.w900,
                       fontSize: 22,

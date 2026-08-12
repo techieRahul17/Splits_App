@@ -54,7 +54,7 @@ class SplitsApp extends ConsumerWidget {
     final isDark = ref.watch(themeProvider);
 
     return MaterialApp.router(
-      title: 'Splits',
+      title: 'spLit',
       debugShowCheckedModeBanner: false,
       theme: SplitsTheme.light(),
       darkTheme: SplitsTheme.dark(),
