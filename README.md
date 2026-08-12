@@ -340,7 +340,7 @@ Everyone taking part is expected to follow the
         <img src="https://github.com/Balamurugan1962.png" width="96" height="96" alt="Bala">
       </a>
       <br><b>Bala</b><br>
-      <a href="https://github.com/Balamurugan1962">@GITHUB_USERNAME_1</a>
+      <a href="https://github.com/Balamurugan1962">@Balamurugan1962</a>
       <br><sub>Designed and Development for Web</sub>
     </td>
     <td align="center" width="180">
@@ -348,7 +348,7 @@ Everyone taking part is expected to follow the
         <img src="https://github.com/techieRahul17.png" width="96" height="96" alt="Rahul">
       </a>
       <br><b>Rahul</b><br>
-      <a href="https://github.com/techieRahul17">@GITHUB_USERNAME_3</a>
+      <a href="https://github.com/techieRahul17">@techieRahul17</a>
       <br><sub>Designed and Developed for Mobile Phones</sub>
     </td>
   </tr>
