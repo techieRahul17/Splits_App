@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Splits - Split bills, settle up, no awkward maths">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD873"/>
+      <stop offset="100%" stop-color="#E7A81E"/>
+    </linearGradient>
+    <linearGradient id="wordmark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CFCFC9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#F5B93D" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#F5B93D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCool" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#AFC0CC" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#AFC0CC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1200" height="360" rx="20" fill="#0A0A0B"/>
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+
+  <!-- Ambient light -->
+  <circle cx="1010" cy="70" r="300" fill="url(#glow)"/>
+  <circle cx="150" cy="330" r="240" fill="url(#glowCool)"/>
+
+  <!-- Hairline rules -->
+  <rect x="72" y="96" width="150" height="2" rx="1" fill="url(#gold)"/>
+
+  <!-- Logo tile -->
+  <rect x="72" y="132" width="76" height="76" rx="22" fill="url(#gold)"/>
+  <g transform="translate(90 150) scale(1.667)">
+    <path d="M14 4l2.29 2.29-2.88 2.88 1.42 1.42 2.88-2.88L20 10V4h-6zM10 4H4v6l2.29-2.29 4.71 4.7V20h2v-8.41l-5.29-5.3L10 4z" fill="#1F1703"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="172" y="196" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="-2" fill="url(#wordmark)">Splits</text>
+
+  <!-- Tagline -->
+  <text x="74" y="256" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#9E9E9B">Split bills item by item. Settle up over UPI. No awkward maths.</text>
+
+  <!-- Capability chips -->
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">
+    <rect x="74" y="288" width="122" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="135" y="310" fill="#F5B93D" text-anchor="middle">FLUTTER</text>
+
+    <rect x="208" y="288" width="150" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="283" y="310" fill="#AFC0CC" text-anchor="middle">OFFLINE FIRST</text>
+
+    <rect x="370" y="288" width="126" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="433" y="310" fill="#22D68A" text-anchor="middle">UPI READY</text>
+  </g>
+
+  <!-- Receipt motif -->
+  <g opacity="0.55">
+    <rect x="836" y="86" width="292" height="196" rx="16" fill="#151517" stroke="#FFFFFF" stroke-opacity="0.10"/>
+
+    <rect x="864" y="116" width="96" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.20"/>
+    <rect x="864" y="150" width="150" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.11"/>
+    <rect x="1046" y="150" width="54" height="8" rx="4" fill="#F5B93D" fill-opacity="0.65"/>
+    <rect x="864" y="176" width="122" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.11"/>
+    <rect x="1046" y="176" width="54" height="8" rx="4" fill="#F5B93D" fill-opacity="0.45"/>
+    <rect x="864" y="202" width="138" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.11"/>
+    <rect x="1046" y="202" width="54" height="8" rx="4" fill="#F5B93D" fill-opacity="0.30"/>
+
+    <rect x="864" y="228" width="236" height="1" fill="#FFFFFF" fill-opacity="0.14"/>
+    <rect x="864" y="244" width="72" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.26"/>
+    <rect x="1024" y="242" width="76" height="16" rx="8" fill="url(#gold)"/>
+  </g>
+</svg>

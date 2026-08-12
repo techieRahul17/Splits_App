@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Local tooling / editor agent config
+.claude/
+.claude
+CLAUDE.md
+.cursor/
+.aider*
+.github/copilot-instructions.md
+
+# Secrets & machine-specific config — never commit these
+*.env
+.env
+.env.*
+!.env.example
+secrets.properties
+android/local.properties
+android/key.properties
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# Signing keys — leaking these lets anyone publish as you
+*.jks
+*.keystore
+*.p12
+*.pem
+*.mobileprovision
+*.cer
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
