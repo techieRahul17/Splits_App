@@ -336,28 +336,20 @@ Everyone taking part is expected to follow the
 <table>
   <tr>
     <td align="center" width="180">
-      <a href="https://github.com/GITHUB_USERNAME_1">
-        <img src="https://github.com/GITHUB_USERNAME_1.png" width="96" height="96" alt="Bala">
+      <a href="https://github.com/Balamurugan1962">
+        <img src="https://github.com/Balamurugan1962.png" width="96" height="96" alt="Bala">
       </a>
       <br><b>Bala</b><br>
-      <a href="https://github.com/GITHUB_USERNAME_1">@GITHUB_USERNAME_1</a>
-      <br><sub>Concept and development</sub>
+      <a href="https://github.com/Balamurugan1962">@GITHUB_USERNAME_1</a>
+      <br><sub>Designed and Development for Web</sub>
     </td>
     <td align="center" width="180">
-      <a href="https://github.com/GITHUB_USERNAME_2">
-        <img src="https://github.com/GITHUB_USERNAME_2.png" width="96" height="96" alt="Anjali">
-      </a>
-      <br><b>Anjali</b><br>
-      <a href="https://github.com/GITHUB_USERNAME_2">@GITHUB_USERNAME_2</a>
-      <br><sub>Development</sub>
-    </td>
-    <td align="center" width="180">
-      <a href="https://github.com/GITHUB_USERNAME_3">
-        <img src="https://github.com/GITHUB_USERNAME_3.png" width="96" height="96" alt="Rahul">
+      <a href="https://github.com/techieRahul17">
+        <img src="https://github.com/techieRahul17.png" width="96" height="96" alt="Rahul">
       </a>
       <br><b>Rahul</b><br>
-      <a href="https://github.com/GITHUB_USERNAME_3">@GITHUB_USERNAME_3</a>
-      <br><sub>Design and development</sub>
+      <a href="https://github.com/techieRahul17">@GITHUB_USERNAME_3</a>
+      <br><sub>Designed and Developed for Mobile Phones</sub>
     </td>
   </tr>
 </table>
