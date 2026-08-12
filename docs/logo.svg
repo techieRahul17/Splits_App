@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Splits app logo">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD873"/>
+      <stop offset="100%" stop-color="#E7A81E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tile -->
+  <rect width="1024" height="1024" rx="232" fill="url(#tile)"/>
+
+  <!--
+    A coin cut into two UNEQUAL pieces and pulled apart along the cut.
+
+    Circle: centre (512,512), r 302. The cut's normal points at -20 degrees and
+    the chord sits 70px off centre, so the two pieces differ in size. That
+    asymmetry is the point: shares in a real bill are rarely equal.
+
+    Each piece slides 34px along the normal, in opposite directions.
+    Keep this in sync with tool/gen_icon.py, which renders the PNGs.
+  -->
+  <g fill="#1F1703">
+    <!-- Larger piece, sliding down-left -->
+    <g transform="translate(-31.95 11.63)">
+      <path d="M678.26 764.12 A 302 302 0 1 1 477.30 212.00 Z"/>
+    </g>
+    <!-- Smaller piece, sliding up-right -->
+    <g transform="translate(31.95 -11.63)">
+      <path d="M477.30 212.00 A 302 302 0 0 1 678.26 764.12 Z"/>
+    </g>
+  </g>
+</svg>
