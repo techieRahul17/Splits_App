@@ -37,7 +37,7 @@ Everything is stored on the device. No account, no server, no sign-up.
 - [Getting started](#getting-started)
 - [Building a release](#building-a-release)
 - [Testing](#testing)
-- [Roadmap](#roadmap)
+- [Contributing](#contributing)
 - [Authors](#authors)
 - [License](#license)
 
@@ -53,15 +53,16 @@ exactly the thing nobody wants to bring up at the table.
 
 Splits records the bill the way it was actually consumed:
 
-| Item          | Price | Shared by            | Each  |
-| ------------- | ----: | -------------------- | ----: |
-| Starters      |   600 | Asha, Bala, Chandru  |   200 |
-| Biryani x4    | 1,200 | Everyone             |   300 |
-| Cocktails x2  |   500 | Bala                 |   500 |
-| Rice          |   100 | Divya                |   100 |
+| Item         | Price | Shared by            | Each |
+| ------------ | ----: | -------------------- | ---: |
+| Starters     |   600 | Bala, Anjali, Rahul  |  200 |
+| Biryani x4   | 1,200 | Everyone             |  300 |
+| Cocktails x2 |   500 | Bala                 |  500 |
+| Rice         |   100 | Karthik              |  100 |
 
-Divya owes 400 instead of 600, Bala owes 1,000, and nobody has to do arithmetic or feel
-short-changed. The payer sees one clear list of who owes them what.
+That works out to Bala 1,000, Anjali 500, Rahul 500, and Karthik 400. Karthik pays 400
+instead of 600, nobody does arithmetic at the table, and the payer sees one clear list of
+who owes them what.
 
 ---
 
@@ -319,15 +320,14 @@ flutter analyze
 
 ---
 
-## Roadmap
+## Contributing
 
-- [ ] Cloud sync so a group can be shared across devices
-- [ ] Multi-payer splits, where more than one person fronts money for the same occasion
-- [ ] Debt simplification, reducing a web of debts to the fewest transfers
-- [ ] Receipt scanning to populate items automatically
-- [ ] Export a split to PDF or CSV
-- [ ] Recurring splits for rent and subscriptions
-- [ ] Home screen widget showing the current outstanding balance
+Contributions are welcome. Start with [`CONTRIBUTING.md`](CONTRIBUTING.md) for the local
+setup, coding conventions, and pull request process.
+
+Everyone taking part is expected to follow the
+[Code of Conduct](CODE_OF_CONDUCT.md). To report a security issue, please read
+[`SECURITY.md`](SECURITY.md) rather than opening a public issue.
 
 ---
 
@@ -335,15 +335,29 @@ flutter analyze
 
 <table>
   <tr>
-    <td align="center">
-      <b>Rahul V S</b><br>
-      <sub>Design and development</sub><br>
-      <a href="https://github.com/">GitHub</a>
+    <td align="center" width="180">
+      <a href="https://github.com/GITHUB_USERNAME_1">
+        <img src="https://github.com/GITHUB_USERNAME_1.png" width="96" height="96" alt="Bala">
+      </a>
+      <br><b>Bala</b><br>
+      <a href="https://github.com/GITHUB_USERNAME_1">@GITHUB_USERNAME_1</a>
+      <br><sub>Concept and development</sub>
     </td>
-    <td align="center">
-      <b>Balamurugan SB</b><br>
-      <sub>Concept and development</sub><br>
-      <a href="https://github.com/">GitHub</a>
+    <td align="center" width="180">
+      <a href="https://github.com/GITHUB_USERNAME_2">
+        <img src="https://github.com/GITHUB_USERNAME_2.png" width="96" height="96" alt="Anjali">
+      </a>
+      <br><b>Anjali</b><br>
+      <a href="https://github.com/GITHUB_USERNAME_2">@GITHUB_USERNAME_2</a>
+      <br><sub>Development</sub>
+    </td>
+    <td align="center" width="180">
+      <a href="https://github.com/GITHUB_USERNAME_3">
+        <img src="https://github.com/GITHUB_USERNAME_3.png" width="96" height="96" alt="Rahul">
+      </a>
+      <br><b>Rahul</b><br>
+      <a href="https://github.com/GITHUB_USERNAME_3">@GITHUB_USERNAME_3</a>
+      <br><sub>Design and development</sub>
     </td>
   </tr>
 </table>
